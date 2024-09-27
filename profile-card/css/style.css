@@ -1,0 +1,109 @@
+/* Put any custom CSS styles here.  */
+/* Be sure to delete the <style> tag in index.html if you want to use this stylesheet. */
+* {
+  box-sizing: border-box;
+  margin: 0;
+}
+
+body {
+  font-family: "Noto Sans", system-ui, -apple-system, BlinkMacSystemFont,
+    "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue",
+    sans-serif;
+  min-height: 100vh;
+
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  text-rendering: optimizeLegibility;
+  background: grey;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background: white;
+  width: 340px;
+  padding: 24px 16px;
+  border-radius: 8px;
+  gap: 40px;
+  margin: auto;
+  margin-top: 200px;
+}
+
+.details {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 16px;
+}
+
+.details img {
+  height: 64px;
+  width: 64px;
+}
+
+.details__profile {
+  text-align: center;
+}
+
+.details__name {
+  font-size: 16px;
+  font-weight: 600;
+  color: #171717;
+}
+
+.details__job {
+  font-size: 14px;
+  color: #525252;
+}
+
+.details__desc {
+  font-size: 16px;
+  color: #525252;
+  text-align: center;
+}
+
+.action {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  gap: 24px;
+}
+
+.action button {
+  border: none;
+  background: none;
+}
+
+.action__button {
+  background: #4338ca !important;
+  color: #fff;
+  font-size: 16px;
+  padding: 10px;
+  border-radius: 8px;
+}
+
+.social-media {
+  display: flex;
+  justify-content: center;
+  gap: 16px;
+}
+
+.social-media button {
+  padding: 8px;
+  color: #4338ca;
+}
+
+.credits {
+  color: #777;
+  position: fixed;
+  bottom: 24px;
+  left: 24px;
+  font-size: 11px;
+  text-align: center;
+}
+
+.credits a {
+  color: #000;
+  font-weight: bold;
+}
